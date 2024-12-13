@@ -1,0 +1,11 @@
+{
+  "name": "docker-foundryvtt",
+  "version": "1.0.0",
+  "description": "Creates and deploys a foundry vtt docker image",
+  "repository": {
+    "type": "git",
+    "url": "https+git://github.com/Olorin71/docker-foundryvtt.git"
+  },
+  "author": "Alexandre Soler Sanandres",
+  "license": "ISC"
+}
