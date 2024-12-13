@@ -4,8 +4,7 @@ on: [ push, pull_request ]
 
 jobs:
   docker:
-    if: github.ref == 'refs/heads/main'
-    needs: [ build ]
+    if: github.ref == 'refs/heads/main'1
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
