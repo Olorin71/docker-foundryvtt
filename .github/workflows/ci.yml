@@ -48,6 +48,7 @@ jobs:
 
   update_version_number:
     if: github.ref == 'refs/heads/main'
+    permissions: write-all
     needs: [docker]
     runs-on: ubuntu-latest
     steps:
