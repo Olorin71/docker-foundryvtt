@@ -20,5 +20,5 @@ RUN chmod -R 766 ${FOUNDRY_HOME}
 RUN chmod -R 766 ${FOUNDRY_DATA}
 
 EXPOSE 30000
-CMD ["pm2-runtime", "${FOUNDRY_HOME}/resources/app/main.js --dataPath=${FOUNDRY_DATA}"]
+CMD ["pm2-runtime", "${FOUNDRY_HOME}/main.js --dataPath=${FOUNDRY_DATA}"]
 # CMD node ${FOUNDRY_HOME}/resources/app/main.js --dataPath=${FOUNDRY_DATA}
