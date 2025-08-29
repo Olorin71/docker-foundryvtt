@@ -1,2 +1,2 @@
 # Docker Foundry VTT
-create and deploys a docker image fpr the foundry vtt table top system.
+create and deploys a docker image for the foundry vtt table top system.
